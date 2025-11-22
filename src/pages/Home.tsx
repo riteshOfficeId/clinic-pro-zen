@@ -1,14 +1,10 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Heart, Shield, Users, Award, Activity, Stethoscope } from "lucide-react";
+import { Heart, Shield, Users, Award } from "lucide-react";
 import servicesData from "@/data/services.json";
 import testimonialsData from "@/data/testimonials.json";
 import TestimonialCard from "@/components/TestimonialCard";
-import medicalHeroBg from "@/assets/medical-hero-bg.jpg";
-import healthImportance from "@/assets/health-importance.png";
-import medicalIcon1 from "@/assets/medical-icon-1.jpg";
-import medicalIcon2 from "@/assets/medical-icon-2.png";
 
 const Home = () => {
   const featuredServices = servicesData.slice(0, 4);
@@ -16,60 +12,28 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-primary to-secondary text-primary-foreground py-20 md:py-32 overflow-hidden">
-        {/* Medical Background */}
-        <div 
-          className="absolute inset-0 opacity-20 bg-cover bg-center"
-          style={{ backgroundImage: `url(${medicalHeroBg})` }}
-        />
-        
-        {/* Floating Medical Icons */}
-        <div className="absolute top-10 left-10 w-20 h-20 opacity-20 animate-pulse">
-          <Activity className="w-full h-full" />
-        </div>
-        <div className="absolute bottom-20 right-10 w-24 h-24 opacity-20 animate-pulse" style={{ animationDelay: '1s' }}>
-          <Stethoscope className="w-full h-full" />
-        </div>
-        <div className="absolute top-1/4 right-20 w-16 h-16 rounded-full overflow-hidden opacity-30 animate-float">
-          <img src={medicalIcon1} alt="Medical" className="w-full h-full object-cover" />
-        </div>
-        <div className="absolute bottom-1/3 left-20 w-20 h-20 rounded-full overflow-hidden opacity-30 animate-float" style={{ animationDelay: '0.5s' }}>
-          <img src={medicalIcon2} alt="Medical" className="w-full h-full object-cover" />
-        </div>
+      <section className="relative bg-gradient-to-br from-primary to-secondary text-primary-foreground py-20 md:py-32">
+        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC4xIj48cGF0aCBkPSJNMzYgMzBoLTEydjEyaDEyek0wIDBoMTJ2MTJIMHoiLz48L2c+PC9nPjwvc3ZnPg==')] opacity-10"></div>
         
         <div className="container mx-auto px-4 relative z-10">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            {/* Text Content */}
-            <div className="text-center lg:text-left animate-fade-in">
-              <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                Your Health, Our Priority
-              </h1>
-              <p className="text-xl md:text-2xl mb-8 opacity-90">
-                Experience world-class healthcare with compassion and expertise. Your wellness journey starts here.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                <Link to="/appointment">
-                  <Button size="lg" variant="secondary" className="w-full sm:w-auto">
-                    Book Appointment
-                  </Button>
-                </Link>
-                <Link to="/services">
-                  <Button size="lg" variant="outline" className="w-full sm:w-auto bg-transparent text-white border-white hover:bg-white/10">
-                    Our Services
-                  </Button>
-                </Link>
-              </div>
-            </div>
-            
-            {/* Health Importance Graphic */}
-            <div className="animate-fade-in hidden lg:block" style={{ animationDelay: '0.2s' }}>
-              <div className="relative">
-                <img 
-                  src={healthImportance} 
-                  alt="Health and Wellness Importance" 
-                  className="w-full h-auto rounded-lg shadow-2xl"
-                />
-              </div>
+          <div className="max-w-3xl mx-auto text-center animate-fade-in">
+            <h1 className="text-4xl md:text-6xl font-bold mb-6">
+              Your Health, Our Priority
+            </h1>
+            <p className="text-xl md:text-2xl mb-8 opacity-90">
+              Experience world-class healthcare with compassion and expertise
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link to="/appointment">
+                <Button size="lg" variant="secondary" className="w-full sm:w-auto">
+                  Book Appointment
+                </Button>
+              </Link>
+              <Link to="/services">
+                <Button size="lg" variant="outline" className="w-full sm:w-auto bg-transparent text-white border-white hover:bg-white/10">
+                  Our Services
+                </Button>
+              </Link>
             </div>
           </div>
         </div>

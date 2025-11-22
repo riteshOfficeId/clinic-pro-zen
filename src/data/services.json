@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "General Health Checkup",
+    "priceRange": "₹500 - ₹800",
+    "description": "Complete physical health assessment including vitals, blood tests, and consultation."
+  },
+  {
+    "id": 2,
+    "name": "Dental Care",
+    "priceRange": "₹300 - ₹2000",
+    "description": "Comprehensive dental services including cleaning, filling, and cosmetic procedures."
+  },
+  {
+    "id": 3,
+    "name": "Cardiology Consultation",
+    "priceRange": "₹800 - ₹1500",
+    "description": "Expert heart health evaluation with ECG and specialist consultation."
+  },
+  {
+    "id": 4,
+    "name": "Pediatric Care",
+    "priceRange": "₹400 - ₹1000",
+    "description": "Specialized healthcare for infants, children, and adolescents."
+  },
+  {
+    "id": 5,
+    "name": "Dermatology Treatment",
+    "priceRange": "₹600 - ₹1800",
+    "description": "Skin, hair, and nail treatments by experienced dermatologists."
+  },
+  {
+    "id": 6,
+    "name": "Orthopedic Services",
+    "priceRange": "₹700 - ₹2500",
+    "description": "Joint, bone, and muscle care including X-rays and physiotherapy."
+  },
+  {
+    "id": 7,
+    "name": "Laboratory Tests",
+    "priceRange": "₹200 - ₹3000",
+    "description": "Wide range of diagnostic tests with accurate and timely results."
+  },
+  {
+    "id": 8,
+    "name": "Vaccination Services",
+    "priceRange": "₹300 - ₹1200",
+    "description": "Immunization services for all age groups with certified vaccines."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Amit Verma",
+    "message": "Professional doctors and seamless experience! The staff is caring and the facilities are top-notch.",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "Sneha Malhotra",
+    "message": "I am extremely satisfied with the dermatology treatment I received. Dr. Sharma is excellent!",
+    "rating": 5
+  },
+  {
+    "id": 3,
+    "name": "Rahul Desai",
+    "message": "Great healthcare facility with modern equipment. The appointment booking process is very convenient.",
+    "rating": 5
+  },
+  {
+    "id": 4,
+    "name": "Priya Kapoor",
+    "message": "Highly recommend ClinicPro for pediatric care. Dr. Ananya is wonderful with children.",
+    "rating": 5
+  }
+]

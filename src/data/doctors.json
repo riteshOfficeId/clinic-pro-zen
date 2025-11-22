@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Priya Sharma",
+    "specialization": "Dermatology",
+    "experience": "8 years",
+    "availability": "Mon - Fri",
+    "image": "/placeholder.svg"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Rajesh Kumar",
+    "specialization": "Cardiology",
+    "experience": "12 years",
+    "availability": "Mon - Sat",
+    "image": "/placeholder.svg"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Ananya Reddy",
+    "specialization": "Pediatrics",
+    "experience": "6 years",
+    "availability": "Mon - Fri",
+    "image": "/placeholder.svg"
+  },
+  {
+    "id": 4,
+    "name": "Dr. Vikram Patel",
+    "specialization": "Orthopedics",
+    "experience": "15 years",
+    "availability": "Tue - Sat",
+    "image": "/placeholder.svg"
+  },
+  {
+    "id": 5,
+    "name": "Dr. Meera Nair",
+    "specialization": "General Medicine",
+    "experience": "10 years",
+    "availability": "Mon - Sat",
+    "image": "/placeholder.svg"
+  },
+  {
+    "id": 6,
+    "name": "Dr. Arjun Singh",
+    "specialization": "Neurology",
+    "experience": "9 years",
+    "availability": "Wed - Sun",
+    "image": "/placeholder.svg"
+  }
+]
